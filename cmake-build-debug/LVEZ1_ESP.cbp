@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LVEZ1_ESP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LVEZ1_ESP">
+				<Option output="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/LVEZ1_ESP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 LVEZ1_ESP"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LVEZ1_ESP/fast">
+				<Option output="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/LVEZ1_ESP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 LVEZ1_ESP/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/fhaga/hatogit/LVEZ1_ESP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.cpp">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.h">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/README.md">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/lib/readme.txt">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/Arduino_LVEZ.png">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/Arduino_PWMLVEZ.png">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/ESP32_LVEZ.png">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/ESP32_PWMLVEZ.png">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/ESP8266_pwm.png">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/ESP8266connect.jpg">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/pic/to1V.jpg">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/platformio.ini">
+			<Option target="LVEZ1_ESP"/>
+		</Unit>
+		<Unit filename="/home/fhaga/hatogit/LVEZ1_ESP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
