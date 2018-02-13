@@ -84,8 +84,17 @@ PWM pin is IO12,13,14,15,16 pins.
 
 ### ESP32
 
+PWM enable to use all pins.
 
+Using software PWM code.
+
+![](https://i.imgur.com/xicAiqW.png)
+
+use pulse in/out
 
 ### Arduino
+
+![](https://i.imgur.com/vvit0jh.png)
+
 
 
