@@ -22,6 +22,8 @@ public:
     LVEZ_8266(); // using analog read
     LVEZ_8266(int pin_number); // using pulse width
 
+    long get_raw_data_analog();
+
     long analog_dist_mm();
     long analog_dist_inch();
 
@@ -34,6 +36,21 @@ private:
     int pin_num_digital;
 };
 
-class LVEZ_ESP32{};
+class LVEZ_ESP32{
+public:
+    LVEZ_32(int pin_number);
+
+    long get_raw_data_analog();
+
+    long analog_dist_mm();
+    long analog_dist_inch();
+
+    long pulse_dist_mm();
+    long pulse_dist_inch();
+
+private:
+    int pin_num;
+
+};
 
 class LVEZ_Arduino{};

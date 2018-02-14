@@ -23,19 +23,24 @@ LVEZ_ESP8266::LVEZ_8266(int pin_number) {
     pinMode(pin_number, INPUT);
 }
 
+long LVEZ_ESP8266::get_raw_data_analog() {
+    long raw_data = 0;
+    raw_data = analogRead(pin_num_analog);
+    raw_data = raw_data >> 2;
+    return raw_data;
+}
+
 long LVEZ_ESP8266::analog_dist_mm() {
-    long distance = 0, distance_mm = 0;
-    distance = analograed(pin_num_analog);
-    distance_mm = distance >> 2;
-    distance_mm = distance_mm * 5;
+    long distance_mm = 0, raw_data = 0;
+    raw_data = get_raw_data_analog();
+    distance_mm = raw_data * 5;
     return distance_mm;
 }
 
 long LVEZ_ESP8266::analog_dist_inch() {
-    long distance = 0, distance_inch = 0;
-    distance = analogread(pin_num_analog);
-    distance_inch = distance >> 2;
-    distance_inch = distance_inch * 5 / 25.4;
+    long distance_inch = 0, raw_data = 0;
+    raw_data = get_raw_data_analog();
+    distance_inch = (raw_data * 5) / 25.4;
     return distance_inch;
 }
 
@@ -52,3 +57,36 @@ double LVEZ_ESP8266::pulse_dist_inch() {
     return distance_inch;
 }
 
+
+LVEZ_ESP32::LVEZ_32(int pin_number) {
+    pin_num = pin_number;
+}
+
+long LVEZ_ESP32::analog_dist_mm() {
+    long distance_mm = 0, raw_data = 0;
+    raw_data = get_raw_data_analog();
+    distance_mm = raw_data * 5;
+    return distance_mm;
+}
+
+long LVEZ_ESP32::analog_dist_inch() {
+    long distance_inch = 0, raw_data = 0;
+    raw_data = get_raw_data_analog();
+    distance_inch = (raw_data * 5) / 25.4;
+    return distance_inch;
+}
+
+long LVEZ_ESP32::get_raw_data_analog() {
+    long raw_data = 0;
+    raw_data = analogRead(pin_num);
+    raw_data = raw_data >> 2;
+    return raw_data;
+}
+
+long LVEZ_ESP32::pulse_dist_mm() {
+    return 0;
+}
+
+long LVEZ_ESP32::pulse_dist_inch() {
+    return 0;
+}
