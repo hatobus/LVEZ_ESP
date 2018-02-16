@@ -84,7 +84,9 @@ long LVEZ_ESP32::get_raw_data_analog() {
 }
 
 long LVEZ_ESP32::pulse_dist_mm() {
-    return 0;
+    double distance_mm = 0;
+    distance_mm = pulseIn(pin_num_digital, HIGH);
+    return distance_mm;
 }
 
 long LVEZ_ESP32::pulse_dist_inch() {
