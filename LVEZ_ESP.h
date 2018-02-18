@@ -19,8 +19,8 @@ using namespace std;
 
 class LVEZ_ESP8266{
 public:
-    LVEZ_8266(); // using analog read
-    LVEZ_8266(int pin_number); // using pulse width
+    LVEZ_ESP8266(); // using analog read
+    LVEZ_ESP8266(short pin_number); // using pulse width
 
     long get_raw_data_analog();
 
@@ -33,12 +33,12 @@ public:
 
 private:
     string pin_num_analog;
-    int pin_num_digital;
+    short pin_num_digital;
 };
 
 class LVEZ_ESP32{
 public:
-    LVEZ_32(int pin_number);
+    LVEZ_ESP32(short pin_num);
 
     long get_raw_data_analog();
 
@@ -49,8 +49,23 @@ public:
     long pulse_dist_inch();
 
 private:
-    int pin_num;
+    short pin_num;
 
 };
 
-class LVEZ_Arduino{};
+class LVEZ_Arduino{
+public:
+    LVEZ_Arduino(short pin_number);
+
+    long get_raw_data_analog(string analog_pin);
+    long get_raw_data_pulse();
+
+    long analog_dist_mm(string analog_pin);
+    long analog_dist_inch(string analog_pin);
+
+    double pulse_dist_mm();
+    double pulse_dist_inch();
+
+private:
+    short pin_num;
+};

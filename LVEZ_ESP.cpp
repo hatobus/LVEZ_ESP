@@ -14,11 +14,11 @@
 
 using namespace std;
 
-LVEZ_ESP8266::LVEZ_8266() {
+LVEZ_ESP8266::LVEZ_ESP8266() {
     string pin_num_analog = "A0";
 }
 
-LVEZ_ESP8266::LVEZ_8266(int pin_number) {
+LVEZ_ESP8266::LVEZ_ESP8266(int pin_number) {
     int pin_num_digital = pin_number;
     pinMode(pin_number, INPUT);
 }
@@ -58,7 +58,7 @@ double LVEZ_ESP8266::pulse_dist_inch() {
 }
 
 
-LVEZ_ESP32::LVEZ_32(int pin_number) {
+LVEZ_ESP32::LVEZ_ESP32(int pin_number) {
     pin_num = pin_number;
 }
 
@@ -85,10 +85,58 @@ long LVEZ_ESP32::get_raw_data_analog() {
 
 long LVEZ_ESP32::pulse_dist_mm() {
     double distance_mm = 0;
-    distance_mm = pulseIn(pin_num_digital, HIGH);
+    distance_mm = pulseIn(pin_num, HIGH);
     return distance_mm;
 }
 
 long LVEZ_ESP32::pulse_dist_inch() {
-    return 0;
+    double distance_inch = 0;
+    distance_inch = pulseIn(pin_num, HIGH);
+    distance_inch /= 25.4;
+    return distance_inch;
 }
+
+LVEZ_Arduino::LVEZ_Arduino(short pin_number) {
+    pin_num = pin_number;
+}
+
+long LVEZ_ long LVEZ_Arduino::get_raw_data_analog(string analog_pin) {
+    long raw_data;
+    raw_data = analogRead(pin_num);
+    return raw_data;
+}
+
+long LVEZ_Arduino::analog_dist_mm(string analog_pin) {
+    long distance_mm;
+    distance_mm = get_raw_data_analog(analog_pin);
+    distance_mm *= 5;
+    return distance_mm;
+}
+
+long LVEZ_Arduino::analog_dist_inch(string analog_pin) {
+    long distance_inch;
+    distance_inch = get_raw_data_analog(analog_pin);
+    distance_inch = distance_inch * 5 / 25.4;
+    return distance_inch;
+}
+
+double LVEZ_Arduino::pulse_dist_mm() {
+    double distance_mm;
+    distance_mm = get_raw_data_pulse();
+    return distance_mm;
+}
+
+double LVEZ_Arduino::pulse_dist_inch() {
+    double distance_inch;
+    distance_inch = get_raw_data_pulse();
+    distance_inch /= 25.4;
+    return distance_inch;
+}
+
+long LVEZ_Arduino::get_raw_data_pulse() {
+    double raw_data;
+    raw_data = pulseIn(pin_num, HIGH);
+    return raw_data;
+}
+
+
