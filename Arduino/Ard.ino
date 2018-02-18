@@ -1,10 +1,9 @@
 #include <LVEZ_ESP.h>
 
-#define anPin 25
+#define anPin "A0"
 #define pwPin 19
 
-LVEZ_ESP32 ESP32_analog(anPin); 
-LVEZ_ESP32 ESP32_pulse(pwPin);
+LVEZ_Arduino Arduino(pwPin);
 
 void setup(){
     Serial.begin(9600);
@@ -14,11 +13,11 @@ void loop(){
     long analog_mm, analog_inch;
     double pulse_mm, pulse_inch;
 
-    analog_mm = ESP32_analog.analog_dist_mm();
-    analog_inch = ESP32_analog.analog_dist_inch();
+    analog_mm = Arduino.analog_dist_mm(anPin);
+    analog_inch = Arduino.analog_dist_inch(anPin);
 
-    pulse_mm = ESP32_pulse.pulse_dist_mm();
-    pulse_inch = ESP32_pulse.pulse_dist_inch();
+    pulse_mm = Arduino.pulse_dist_mm();
+    pulse_inch = Arduino.pulse_dist_inch();
 
     delay(100);
 

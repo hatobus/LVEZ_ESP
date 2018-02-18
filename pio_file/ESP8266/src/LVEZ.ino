@@ -11,7 +11,7 @@ void setup(){
 
 void loop(){
     long analog_mm, analog_inch;
-    long pulse_mm, pulse_inch;
+    double pulse_mm, pulse_inch;
 
     analog_mm = ESP8266_analog.analog_dist_mm();
     analog_inch = ESP8266_analog.analog_dist_inch();

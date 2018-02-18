@@ -45,8 +45,8 @@ public:
     long analog_dist_mm();
     long analog_dist_inch();
 
-    long pulse_dist_mm();
-    long pulse_dist_inch();
+    double pulse_dist_mm();
+    doubledouble pulse_dist_inch();
 
 private:
     short pin_num;
