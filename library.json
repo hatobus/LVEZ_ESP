@@ -19,7 +19,7 @@
     },
 
     "version": "1.0.0",
-    "name": LVEZ_ESP,
+    "name": "LVEZ_ESP",
     
     "frameworks": [
         "Arduino", "Espressif 32", "Espressif 8266"
