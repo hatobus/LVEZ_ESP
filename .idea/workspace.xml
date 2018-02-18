@@ -11,10 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1fa641d-0c95-4514-82b3-e7caf637d96b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/readme.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/platformio.ini" afterPath="" />
-    </list>
+    <list default="true" id="a1fa641d-0c95-4514-82b3-e7caf637d96b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,6 +114,17 @@
               <item name="LVEZ1_ESP" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="LVEZ1_ESP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LVEZ1_ESP" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="LVEZ1_ESP" type="462c0819:PsiDirectoryNode" />
+              <item name="pio_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LVEZ1_ESP" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="LVEZ1_ESP" type="462c0819:PsiDirectoryNode" />
+              <item name="pio_file" type="462c0819:PsiDirectoryNode" />
+              <item name="ESP32" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -166,18 +174,17 @@
       <updated>1518532262671</updated>
       <workItem from="1518532267501" duration="12076000" />
       <workItem from="1518938394007" duration="61000" />
-      <workItem from="1518938484722" duration="4918000" />
+      <workItem from="1518938484722" duration="5369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17055000" />
+    <option name="totallyTimeSpent" value="17506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-42" y="23" width="1366" height="745" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
