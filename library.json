@@ -1,0 +1,41 @@
+{
+    "authors":[
+    {
+        "name": "F Haga",
+        "email": "s1240056@gmail.com",
+        "url": "https://github.com/hatobus"
+    },
+    {
+        "name": "Hato Bus",
+        "email": null,
+        "url": "https://twitter.com/flying_hato_bus"
+    }
+    ],
+
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/hatobus/LVEZ_ESP"
+    },
+
+    "version": "1.0.0",
+    "name": LVEZ_ESP,
+    
+    "frameworks": [
+        "Arduino", "Espressif 32", "Espressif 8266"
+    ],
+    
+    "export": [
+        "cmake-build-debug",
+        "CMakeLists.txt"
+    ],
+
+    "keywords": [
+        "distance"," distance measure, LV-EZ, MaxBotix"
+    ],
+
+    "homepage": "https://github.com/hatobus/LVEZ_ESP",
+    "platforms": "*",
+
+    "description": "Library to use LV-EZ series sensor with MaxBotix."
+}
