@@ -107,4 +107,5 @@ use pulse in/out
 ![](./pic/Arduino_PWMLVEZ.png)
 
 
-
+## License
+MIT

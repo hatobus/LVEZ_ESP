@@ -9,6 +9,8 @@
 /home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.cpp
 Arduino.h
 /home/fhaga/hatogit/LVEZ1_ESP/Arduino.h
+WProgram.h
+/home/fhaga/hatogit/LVEZ1_ESP/WProgram.h
 LVEZ_ESP.h
 /home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.h
 string
@@ -17,6 +19,8 @@ string
 /home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.h
 Arduino.h
 /home/fhaga/hatogit/LVEZ1_ESP/Arduino.h
+WProgram.h
+/home/fhaga/hatogit/LVEZ1_ESP/WProgram.h
 string
 -
 
