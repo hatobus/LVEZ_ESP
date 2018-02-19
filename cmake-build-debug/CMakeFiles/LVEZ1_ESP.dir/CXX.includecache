@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.cpp
+Arduino.h
+/home/fhaga/hatogit/LVEZ1_ESP/Arduino.h
+LVEZ_ESP.h
+/home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.h
+string
+-
+
+/home/fhaga/hatogit/LVEZ1_ESP/LVEZ_ESP.h
+Arduino.h
+/home/fhaga/hatogit/LVEZ1_ESP/Arduino.h
+string
+-
+
