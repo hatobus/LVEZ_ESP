@@ -41,7 +41,7 @@ long map(long x, long in_min, long in_max, long out_min, long out_max) {
 }
 ```
 
-or 12bit value date right shift 2bit.
+or 12bit value data right shift 2bit.
 
 ```shift.cpp
 long data_for_12bit = 3456;
